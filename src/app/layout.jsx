@@ -6,7 +6,7 @@ import Background from "@/components/Background";
 import Cursor from "@/components/Cursor";
 
 export const metadata = {
-  metadataBase: new URL("https://raiin.vercel.app"),
+  metadataBase: new URL("https://raiin-eta.vercel.app/"),
 
   title: {
     default: "RAIIN — Relax, Listen to the Rain",
@@ -52,7 +52,7 @@ export const metadata = {
     title: "RAIIN — Relax, Listen to the Rain",
     description:
       "A calming rain experience for relaxation, focus, study, and sleep.",
-    url: "https://raiin.vercel.app",
+    url: "https://raiin-eta.vercel.app/",
     siteName: "RAIIN",
     locale: "en_US",
     type: "website",
@@ -75,7 +75,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://raiin.vercel.app",
+    canonical: "https://raiin-eta.vercel.app/",
   },
 
   category: "lifestyle",
