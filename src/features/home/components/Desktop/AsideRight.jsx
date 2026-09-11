@@ -11,7 +11,7 @@ const AsideRight = () => {
       </p>
 
       <h1
-        className={`${textHeroes.className} bg-emerald-200 text-2xl uppercase opacity-80 font-bold `}
+        className={`${textHeroes.className} text-2xl uppercase opacity-80 font-bold `}
       >
         (Raiin)
       </h1>
