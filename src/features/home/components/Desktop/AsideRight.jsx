@@ -7,7 +7,8 @@ const AsideRight = () => {
   return (
     <div className="col-start-11 col-end-13 flex flex-col justify-between gap-10 h-full items-end ">
       <p className="font-bold opacity-70 text-xs uppercase leading-[115%] ">
-        Just relax, listen to the rain, and choose a background from the left.
+        Just relax, listen to the rain, and choose a background at the bottom
+        left.{" "}
       </p>
 
       <h1

@@ -16,7 +16,7 @@ const Top = () => {
       <div className="col-start-3 col-end-5 flex justify-end">
         <div className="flex flex-col gap-5">
           <p className="font-bold opacity-70 text-xs uppercase leading-[120%] ">
-            Just relax, listen to the rain, and choose a background from the
+            Just relax, listen to the rain, and choose a background at the
             bottom.
           </p>
           <h1

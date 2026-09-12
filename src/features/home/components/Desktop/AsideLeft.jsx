@@ -1,7 +1,7 @@
 "use client";
 
-import ChoiceBackground from "@/components/Shared/ChoiceBackground";
 import RainWaveLine from "@/components/RainWaveLine";
+import ChooseBackground from "@/components/Shared/ChooseBackground";
 import { assetsContext } from "@/contexts/assets-context";
 
 const AsideLeft = () => {
@@ -18,7 +18,7 @@ const AsideLeft = () => {
       </div>
 
       <div className="bg-[#0c0e0f80] p-5 shadow-[rgba(11, 7, 30, 0.1) 0px 10px 30px 0px]">
-        <ChoiceBackground />
+        <ChooseBackground />
       </div>
     </div>
   );

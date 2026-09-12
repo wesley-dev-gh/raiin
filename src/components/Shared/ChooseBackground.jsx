@@ -3,9 +3,9 @@
 import { assetsContext } from "@/contexts/assets-context";
 import { backgroundContext } from "@/contexts/background-context";
 import { backgrounds } from "@/data/backgrounds";
-import Place from "./ChoiceBackground/Place";
+import Place from "./ChooseBackground/Place";
 
-const ChoiceBackground = () => {
+const ChooseBackground = () => {
   const { currentBackground } = backgroundContext((state) => state);
 
   const {
@@ -13,11 +13,11 @@ const ChoiceBackground = () => {
   } = assetsContext((state) => state);
 
   if (loading) {
-    return <div>Carregando.</div>;
+    return <div>Loading...</div>;
   }
 
   if (!loaded) {
-    return <div>Falha ao carregar vídeos.</div>;
+    return <div>Failed to load places.</div>;
   }
 
   return (
@@ -30,7 +30,7 @@ const ChoiceBackground = () => {
           font-bold leading-none opacity-80
           "
         >
-          (Choice the Place)
+          (Choose the Place)
         </span>
       </li>
       {backgrounds.map((bg) => {
@@ -41,4 +41,4 @@ const ChoiceBackground = () => {
   );
 };
 
-export default ChoiceBackground;
+export default ChooseBackground;
